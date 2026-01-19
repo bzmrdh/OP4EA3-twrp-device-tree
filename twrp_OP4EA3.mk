@@ -16,10 +16,11 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/oppo/OP4EA3/device.mk)
 
 PRODUCT_DEVICE := OP4EA3
-PRODUCT_NAME := omni_OP4EA3
+PRODUCT_NAME := twrp_OP4EA3
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := PDSM00
 PRODUCT_MANUFACTURER := oppo
+PRODUCT_RELEASE_NAME := OPPO Reno5 PRO
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
