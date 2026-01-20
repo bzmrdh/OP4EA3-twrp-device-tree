@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/OPPO/PDSM00
+DEVICE_PATH := device/oppo/PDSM00
 
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -186,3 +186,6 @@ TARGET_USES_LOGD := true
 
 TW_DEVICE_VERSION := bzmr
 TW_DEFAULT_LANGUAGE := zh_CN
+
+# Display
+TARGET_SCREEN_DENSITY := 480

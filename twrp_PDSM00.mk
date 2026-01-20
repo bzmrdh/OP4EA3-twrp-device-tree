@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device specific configs.
-$(call inherit-product, device/OPPO/PDSM00/device.mk)
+$(call inherit-product, device/oppo/PDSM00/device.mk)
 
 PRODUCT_DEVICE := PDSM00
 PRODUCT_NAME := twrp_PDSM00
