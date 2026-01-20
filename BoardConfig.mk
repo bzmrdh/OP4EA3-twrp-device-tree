@@ -183,3 +183,6 @@ TARGET_USES_LOGD := true
 # PBRP specific build flags
 #PB_DISABLE_DEFAULT_TREBLE_COMP := true
 #PB_TORCH_PATH := "/sys/class/flashlight"
+
+TW_DEVICE_VERSION := bzmr
+TW_DEFAULT_LANGUAGE := zh_CN
