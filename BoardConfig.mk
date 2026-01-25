@@ -184,9 +184,6 @@ TARGET_USES_LOGD := true
 TW_DEVICE_VERSION := bzmr
 TW_DEFAULT_LANGUAGE := zh_CN
 
-# Display
-TARGET_SCREEN_DENSITY := 480
-
 TW_OZIP_DECRYPT_KEY := 0000
 
 # 可选：指定屏幕分辨率（适配小众分辨率设备，多数设备TWRP可自动识别）
