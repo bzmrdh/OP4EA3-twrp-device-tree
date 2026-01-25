@@ -117,7 +117,7 @@ BOARD_USES_METADATA_PARTITION := true
 BOARD_ROOT_EXTRA_FOLDERS += metadata my_version my_stock my_region my_product my_preload my_manifest my_heytap my_engineering my_company my_carrier my_bigball
 
 # Recovery
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 BOARD_HAS_LARGE_FILESYSTEM := true
 
@@ -183,3 +183,8 @@ TARGET_USES_LOGD := true
 
 TW_DEVICE_VERSION := bzmr
 TW_DEFAULT_LANGUAGE := zh_CN
+
+# Display
+TARGET_SCREEN_DENSITY := 480
+
+TW_OZIP_DECRYPT_KEY := 0000
