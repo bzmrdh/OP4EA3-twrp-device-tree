@@ -188,3 +188,9 @@ TW_DEFAULT_LANGUAGE := zh_CN
 TARGET_SCREEN_DENSITY := 480
 
 TW_OZIP_DECRYPT_KEY := 0000
+
+# 可选：指定屏幕分辨率（适配小众分辨率设备，多数设备TWRP可自动识别）
+TW_SCREEN_WIDTH := 1080
+TW_SCREEN_HEIGHT := 2400
+# 可选：强制屏幕旋转（如竖屏改横屏，按需设置0/90/180/270）
+TW_ROTATION := 0
